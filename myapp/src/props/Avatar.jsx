@@ -3,7 +3,9 @@ function Avatar(props)
 {
     console.log(props)
     return(
-        <div>
+        
+        <div className="Avatar">
+           
             <img
             src={props.url}
             height={props.height}
