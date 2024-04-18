@@ -68,3 +68,16 @@
   width: 100%;
   background-color: crimson;
 }
+.contain
+{
+  height: 350px;
+  display: flex;
+  margin-left: 130px;
+  margin-top: 25px;
+  
+}
+.contain 
+url
+{
+  margin: 200px;
+}
