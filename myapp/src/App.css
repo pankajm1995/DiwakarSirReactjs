@@ -113,6 +113,8 @@ url
   display: flex;
   flex-direction: row;
  text-align: center;
+ background-color: thistle;
+ border-radius: 8px;
 }
 .btn
 {
@@ -121,6 +123,8 @@ url
   margin-top: 15%;
   margin-left: 150px;
   cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 0px 0px 2px rgb(198, 241, 6);
 }
 .btn:hover
 {
@@ -133,4 +137,5 @@ img{
 .raw
 {
   margin-left: 40px;
+  word-spacing: 10px;
 }
