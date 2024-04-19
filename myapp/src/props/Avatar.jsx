@@ -10,9 +10,9 @@ function Avatar(props)
             src={props.url}
             height={props.height}
             width={props.width}
-            
+            alt=""
             />
-            <h3>{props.name}</h3>
+            <h3 className="name">{props.name}</h3>
         </div>
     )
 }
