@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 .container
 {
   height: 80px;
@@ -104,4 +104,33 @@ url
   width: 800px;
   border: 3px solid black;
   margin: auto;
+}
+.box
+{
+  height: 300px;
+  border: 2px solid black;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+ text-align: center;
+}
+.btn
+{
+  height: 30px;
+  width: 80px;
+  margin-top: 15%;
+  margin-left: 150px;
+  cursor: pointer;
+}
+.btn:hover
+{
+background-color: brown;
+}
+img{
+  border-radius: 50%;
+  border: 2px solid greenyellow;
+}
+.raw
+{
+  margin-left: 40px;
 }
